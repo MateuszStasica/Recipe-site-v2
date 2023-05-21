@@ -27,4 +27,19 @@ export const sample_foods: any[] = [
     ingredients:['a','b','c'],
     recipe:'bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla',
   }
+];
+
+export const sample_users: any[] = [
+  {
+    name: "Frank Castle",
+    email: "Frank@gmail.com",
+    passowrd: "12345",
+    isAdmin: true,
+  },
+  {
+    name: "Matt Murdock",
+    email: "Matt@gmail.com",
+    passowrd: "12345",
+    isAdmin: false,
+  }
 ]

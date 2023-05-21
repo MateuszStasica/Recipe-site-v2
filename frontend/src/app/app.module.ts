@@ -22,7 +22,7 @@ import { NotFoundComponent } from './components/partials/not-found/not-found.com
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

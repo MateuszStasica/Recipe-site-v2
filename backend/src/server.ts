@@ -5,8 +5,8 @@ import { sample_foods } from "./data";
 const app = express();
 app.use(cors({
     credentials:true,
-    origin:["https://localhost:4200"]
-}))
+    origin:["http://localhost:4200"]
+}));
 
 app.get("/api/foods", (req, res) =>{
     res.send(sample_foods);

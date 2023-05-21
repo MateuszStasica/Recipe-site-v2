@@ -4,7 +4,7 @@ export const sample_foods: Food[] = [
   {
     id:'1',
     name:'Lasagne',
-    favourite:false,
+    favorite:false,
     imageUrl:'assets/images/food1.jpg',
     cookTime:'70-90 min',
     ingredients:['a','b','c'],
@@ -13,7 +13,7 @@ export const sample_foods: Food[] = [
   {
     id:'2',
     name:'Shakshuka',
-    favourite:false,
+    favorite:false,
     imageUrl:'assets/images/food2.jpg',
     cookTime:'20-30 min',
     ingredients:['a','b','c'],
@@ -22,7 +22,7 @@ export const sample_foods: Food[] = [
   {
     id:'3',
     name:'Spaghetti Bolognese',
-    favourite:false,
+    favorite:false,
     imageUrl:'assets/images/food3.jpg',
     cookTime:'45-60 min',
     ingredients:['a','b','c'],

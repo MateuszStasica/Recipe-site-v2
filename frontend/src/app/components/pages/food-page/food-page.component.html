@@ -1,0 +1,23 @@
+<div class="container">
+  <img [src]="food.imageUrl" [alt]="food.name"/>
+
+  <div class="details">
+    <div class="header">
+      <span class="name">
+        {{food.name}}
+      </span>
+      <span class="favorite {{food.favorite? '': 'not'}}">❤</span>
+    </div>
+    <div class="cook-time">
+      <span>
+        Time to cook about <strong>{{food.cookTime}}</strong>
+      </span>
+    </div>
+    <div class="ingredients">
+      <span *ngFor="let ingredients of food.ingredients">
+        - {{ingredients}} <br>
+      </span>
+    </div>
+
+  </div>
+</div>

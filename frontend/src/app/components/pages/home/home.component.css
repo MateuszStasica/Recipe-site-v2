@@ -36,14 +36,14 @@ li a img{
   height: 7rem;
 }
 
-.favourite{
+.favorite{
   position: absolute;
   top: 0.5rem;
   right: 1rem;
   font-size: 1.2rem;
 }
 
-.favourite.not{
+.favorite.not{
   color: grey;
 }
 

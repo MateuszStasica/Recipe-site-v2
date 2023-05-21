@@ -18,4 +18,9 @@ export class FoodService {
     .filter(food => food.name.toLowerCase()
     .includes(searchTerm.toLocaleLowerCase()))
   }
+
+  getFoodById(foodId:string):Food{
+    return this.getAll()
+    .find(food => food.id == foodId) ?? new Food();
+  }
 }

@@ -1,7 +1,7 @@
 export class Food{
   id!:string;
   name!:string;
-  favourite!:boolean;
+  favorite!:boolean;
   imageUrl!:string;
   cookTime!:string;
   ingredients!:string[];

@@ -16,11 +16,11 @@ app.get("/api/foods/search/:searchTerm", (req, res) =>{
     const searchTerm = req.params.searchTerm;
     const foods = sample_foods
     .filter(food => food.name.toLowerCase()
-    .includes(searchTerm.toLocaleLowerCase()))
+    .includes(searchTerm.toLocaleLowerCase()));
     res.send(foods);
 })
 
-app.get("api/foods/:foodId", (req, res) =>{
+app.get("/api/foods/:foodId", (req, res) =>{
     const foodId = req.params.foodId;
     const food = sample_foods.find(food => food.id == foodId);
     res.send(food);

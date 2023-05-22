@@ -10,8 +10,8 @@ import { User } from 'src/app/shared/models/User';
 export class HeaderComponent implements OnInit{
 
 
-  user!:User;
-  constructor(userService:UserService){
+  user!: User;
+  constructor(private userService:UserService){
     userService.userObservable.subscribe((newUser) =>{
       this.user = newUser;
     })
@@ -19,5 +19,13 @@ export class HeaderComponent implements OnInit{
 
   ngOnInit(): void {
 
+  }
+
+  logout(){
+    this.userService.logout();
+  }
+
+  get isAuth(){
+    return this.user.token;
   }
 }

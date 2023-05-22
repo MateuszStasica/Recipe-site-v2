@@ -35,11 +35,13 @@ export const sample_users: any[] = [
     email: "Frank@gmail.com",
     password: "12345",
     isAdmin: true,
+    token: "",
   },
   {
     name: "Matt Murdock",
     email: "Matt@gmail.com",
     password: "12345",
     isAdmin: false,
+    token: "",
   }
 ]

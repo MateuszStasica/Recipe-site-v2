@@ -26,8 +26,8 @@ export const sample_foods: any[] = [
     cookTime:'45-60 min',
     ingredients:['a','b','c'],
     recipe:'bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla',
-  }
-];
+  },
+]
 
 export const sample_users: any[] = [
   {
